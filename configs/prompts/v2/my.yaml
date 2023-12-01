@@ -3,8 +3,8 @@ RealisticVision:
   motion_module:
     - "models/Motion_Module/mm_sd_v15_v2.ckpt"
 
-  dreambooth_path: "models/DreamBooth_LoRA/Anything V5_V3_V5.safetensors"
-  lora_model_path: "models/DreamBooth_LoRA/xiaoqinxinchahua_v1.0.safetensors"
+  dreambooth_path: "models/DreamBooth_LoRA/wangxiangronlu_V5_V3_V5.safetensors"
+  lora_model_path: "models/DreamBooth_LoRA/xiaoqinxinchahua_v1.safetensors"
 
   seed:           [-1]
   steps:          25
