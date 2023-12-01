@@ -1,0 +1,17 @@
+RealisticVision:
+  inference_config: "configs/inference/inference-v2.yaml"
+  motion_module:
+    - "models/Motion_Module/mm_sd_v15_v2.ckpt"
+
+  dreambooth_path: "models/DreamBooth_LoRA/Anything V5_V3_V5.safetensors"
+  lora_model_path: "models/DreamBooth_LoRA/xiaoqinxinchahua_v1.0.safetensors"
+
+  seed:           [-1]
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "sdh,1girl,1boy,Seaside, beach, sky, white clouds,dress,"
+
+  n_prompt:
+    - "(worst quality:2),(low quality:2),(normal quality:2),lowres,watermark, ng_deepnegative_v1_75t EasyNegative badhandv4"
